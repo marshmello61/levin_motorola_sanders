@@ -231,6 +231,9 @@ BOARD_ROOT_EXTRA_FOLDERS := fsg
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
+# Properties
+BOARD_VNDK_RUNTIME_DISABLE := true
+
 # Power
 TARGET_PROVIDES_POWERHAL := true
 TARGET_HAS_NO_WLAN_STATS := true
