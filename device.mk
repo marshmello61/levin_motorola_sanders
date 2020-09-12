@@ -519,10 +519,3 @@ AUDIO_FEATURE_ENABLED_CUSTOMSTEREO := true
 AUDIO_FEATURE_ENABLED_FLUENCE := true
 AUDIO_FEATURE_ENABLED_HDMI_SPK := true
 AUDIO_FEATURE_ENABLED_HDMI_EDID := true
-
-SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8998/media
-SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8998/display
-SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8998/audio
-
-PRODUCT_SOONG_NAMESPACES += \
-    hardware/qcom-caf/msm8996
