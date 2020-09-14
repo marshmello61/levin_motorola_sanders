@@ -159,7 +159,9 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor \
     libhidltransport \
-    libhidltransport.vendor
+    libhidltransport.vendor \
+    libjson \
+    libjson.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
