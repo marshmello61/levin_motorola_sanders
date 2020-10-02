@@ -431,7 +431,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcutils_shim \
     libgpu_mapper_shim \
-    libqsap_shim
+    libqsap_shim \
+    libshims_imsrcsd
 
 # Thermal
 PRODUCT_PACKAGES += \
