@@ -357,7 +357,7 @@ PRODUCT_BOOT_JARS += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
+    android.hardware.power@1.2-service-qti
 
 # Powerhint configuration file
 PRODUCT_COPY_FILES += \
